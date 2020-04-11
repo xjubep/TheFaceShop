@@ -88,4 +88,4 @@ Teams
 
 
 ![01](https://user-images.githubusercontent.com/57625947/79041832-df4d9e80-7c2d-11ea-9a01-7f89f9e6ab30.png)
-<img src="https://user-images.githubusercontent.com/57625947/79041832-df4d9e80-7c2d-11ea-9a01-7f89f9e6ab30.png" width="320">
+<img src="https://user-images.githubusercontent.com/57625947/79041832-df4d9e80-7c2d-11ea-9a01-7f89f9e6ab30.png" width="200">
