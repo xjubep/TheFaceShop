@@ -69,6 +69,7 @@ Teams
 ```
    <br/>  
    <br/>  
+   
 개발환경(언어)
 ---
   * 사용 도구 : Github, SLack
@@ -76,7 +77,7 @@ Teams
   * AI : Python, C
   * 웹서버 : Node.js
 
-   <br/>   
+
 
    
 마일스톤
