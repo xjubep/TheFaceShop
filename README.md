@@ -84,3 +84,7 @@ Teams
     * 출력화면 UX/UI 디자인 : 05/01 ~ 05/30
     * 프로그램 테스트, 문제점 보안 : 06/01 ~ 06/07
     * Demo Day : 06/08
+
+
+
+![01](https://user-images.githubusercontent.com/57625947/79041832-df4d9e80-7c2d-11ea-9a01-7f89f9e6ab30.png | width=100)
