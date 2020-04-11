@@ -52,7 +52,8 @@ Teams
    <br/>     
    
 성진호(Committer)
-<img src="https://user-images.githubusercontent.com/57625947/79041833-e1aff880-7c2d-11ea-97cf-d7749775f55c.png" width="150">
+   <br/>
+<img src="https://user-images.githubusercontent.com/57625947/79041833-e1aff880-7c2d-11ea-97cf-d7749775f55c.png" width="120">
 ```
  *  역할 : 출력화면 UI/UX 디자인, 프론트엔드
 ```
@@ -61,7 +62,8 @@ Teams
    <br/>
 
 강수연
-<img src="https://user-images.githubusercontent.com/57625947/79041836-e4125280-7c2d-11ea-9ec5-28617e53fd63.jpg" width="150">
+   <br/>
+<img src="https://user-images.githubusercontent.com/57625947/79041836-e4125280-7c2d-11ea-9ec5-28617e53fd63.jpg" width="120">
 ```
  *  피부 정보 분석하는 AI 기능 
 ```
