@@ -29,7 +29,7 @@
 ![System](https://user-images.githubusercontent.com/57625947/79041463-13739000-7c2b-11ea-8d0f-6a0662aed882.png)
 
  
-  
+     <br/>
 기대효과
 ---  
    *  피부진단을 하면서 얻은 빅데이터를 바탕으로 수익을 창출할 수도 있을 것이다(화장품 회사, 제약사 등등)
