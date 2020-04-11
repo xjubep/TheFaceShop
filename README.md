@@ -65,7 +65,7 @@ Teams
    <br/>
 <img src="https://user-images.githubusercontent.com/57625947/79041836-e4125280-7c2d-11ea-9ec5-28617e53fd63.jpg" width="120">
 ```
- *  피부 정보 분석하는 AI 기능 
+ *  역할 : 피부 정보 분석하는 AI 기능 
 ```
    <br/>  
    <br/>  
