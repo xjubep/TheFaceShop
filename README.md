@@ -42,19 +42,30 @@ Teams
   
   
 오정학(팀장)
+![01](https://user-images.githubusercontent.com/57625947/79041832-df4d9e80-7c2d-11ea-9a01-7f89f9e6ab30.png)
 ```
  *  역할 : 서버, 데이터베이스 구축
 ```
+
+   <br/>  
+   <br/>     
+   
 성진호(Committer)
+![02](https://user-images.githubusercontent.com/57625947/79041833-e1aff880-7c2d-11ea-97cf-d7749775f55c.png)
 ```
  *  역할 : 출력화면 UI/UX 디자인, 프론트엔드
 ```
+
+   <br/>  
+   <br/>
+
 강수연
+![03](https://user-images.githubusercontent.com/57625947/79041836-e4125280-7c2d-11ea-9ec5-28617e53fd63.jpg)
 ```
  *  피부 정보 분석하는 AI 기능 
 ```
-
-   <br/>   
+   <br/>  
+   <br/>  
 개발환경(언어)
 ---
   * 사용 도구 : Github, SLack
