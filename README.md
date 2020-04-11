@@ -12,7 +12,7 @@ github 사용법은 한글로도 많으니 적절한것 하나를 찾아 숙지 
   pull-request 
 ```
 
-# 공식 프로젝트명, 팀명, 제품서비스등 결과물에 대한 브랜드명
+# 복합센서를 활용한 피부 진단 관리 시스템
 프로젝트 명은 self-descriptive하게 합니다. 
 보통 논문제목은 이런 식: 
 http://www.kiise.or.kr/conference02/cf04/notice.asp?no=116  
