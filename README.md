@@ -1,6 +1,6 @@
 # 복합센서를 활용한 피부 진단 관리 시스템
    * 팀명 : 라이온 피부 구하기 
-   * 제품/서비스명(브랜드) : 허스트(Hubble Skin Teescope)
+   * 제품/서비스명(브랜드) : 허스트(Hubble Skin Telescope)
     
    <br/>
 
