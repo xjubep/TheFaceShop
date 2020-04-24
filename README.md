@@ -75,7 +75,7 @@ Teams
 ---
   * 사용 도구 : Github, SLack
   * 데이터베이스 : MySQL
-  * 웹서버 : HTML, CSS, 
+  * 웹서버 : HTML, CSS, JavaScript
 
 
 
