@@ -23,12 +23,16 @@
 ---  
    * DB의 데이터와 입력데이터를 비교하여 유수분 밸런스, 피부온도 등 피부의 전반적인 상태를 진단한다.
    <br/> 
-
+   <br/> 
+  
 예상 시스템 구성도
 ---
 ![05](https://user-images.githubusercontent.com/57625947/79090125-96a7f980-7d83-11ea-8cea-9987cdf9807c.png)
 
 
+
+ <br/> 
+ 
 ![001](https://user-images.githubusercontent.com/57625947/80254186-aeea1380-86b5-11ea-8bfb-4521fa42de82.png)
 
   <br/> 
