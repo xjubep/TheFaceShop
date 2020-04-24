@@ -46,7 +46,7 @@ Teams
    <br/>
 <img src="https://user-images.githubusercontent.com/57625947/79041832-df4d9e80-7c2d-11ea-9a01-7f89f9e6ab30.png" width="150">
 ```
- *  역할 : 프로그램 작동을 위한 서버 구축
+ *  역할 : 머신러닝 모듈 제작
 ```
 
    <br/>  
@@ -56,7 +56,7 @@ Teams
    <br/>
 <img src="https://user-images.githubusercontent.com/57625947/79041833-e1aff880-7c2d-11ea-97cf-d7749775f55c.png" width="120">
 ```
- *  역할 : 출력화면 UI/UX 디자인, 프론트엔드
+ *  역할 : 웹서버 구축, UI/UX 디자인, 웹페이지 제작 
 ```
 
    <br/>  
@@ -66,7 +66,7 @@ Teams
    <br/>
 <img src="https://user-images.githubusercontent.com/57625947/79041836-e4125280-7c2d-11ea-9ec5-28617e53fd63.jpg" width="120">
 ```
- *  역할 : 프로그램 작동을 위한 DB 구축
+ *  역할 : 센서로 데이터 수집후 전송담당, 케이스제작, DB 구축 
 ```
    <br/>  
    <br/>  
@@ -75,7 +75,7 @@ Teams
 ---
   * 사용 도구 : Github, SLack
   * 데이터베이스 : MySQL
-  * 웹서버 : Node.js
+  * 웹서버 : HTML, CSS, 
 
 
 
