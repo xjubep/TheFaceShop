@@ -35,7 +35,7 @@
  <br/> 
  
 
-![003]<img src="img/diagram.png">
+<img src="img/diagram.png">
 
   <br/> 
   <br/> 
