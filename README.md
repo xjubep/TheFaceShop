@@ -27,8 +27,7 @@
   
 예상 시스템 구성도
 ---
-![05](https://user-images.githubusercontent.com/57625947/79090125-96a7f980-7d83-11ea-8cea-9987cdf9807c.png)
-
+![005](https://user-images.githubusercontent.com/57625947/80898825-287fa280-8d43-11ea-8207-7a84ca1560e9.JPG)
 
 
  <br/> 
