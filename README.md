@@ -48,6 +48,14 @@
    *  기업적 측면: 피부진단을 하면서 얻은 빅데이터를 바탕으로 수익을 창출할 수도 있을 것이다(화장품 회사, 제약사 등등)
    <br/> 
    <br/> 
+
+데이터베이스 스키마
+---  
+   <img src="img/user_table.png">
+   <img src="img/skin_temp_table.png">
+   <img src="img/skin_image_table.png">
+   <br/>
+   <br/> 
    
    
 Teams
