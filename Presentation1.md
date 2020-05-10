@@ -31,7 +31,7 @@
    <br/>  
    <br/>   
   
-예상 시스템 구성도
+시스템 구성도
 ---
 ![006](https://user-images.githubusercontent.com/57625947/81494913-589ce780-92e7-11ea-9653-7881babda1b2.png)
 
@@ -45,6 +45,43 @@
 
   <br/> 
   <br/> 
+
+
+
+팀 구성 및 역할
+---  
+  
+  
+오정학(팀장)
+   <br/>
+<img src="https://user-images.githubusercontent.com/57625947/79041832-df4d9e80-7c2d-11ea-9a01-7f89f9e6ab30.png" width="150">
+```
+ *  역할 : 머신러닝 모듈 제작
+```
+
+   <br/>  
+   <br/>     
+   
+성진호(Committer)
+   <br/>
+<img src="https://user-images.githubusercontent.com/57625947/79041833-e1aff880-7c2d-11ea-97cf-d7749775f55c.png" width="120">
+```
+ *  역할 : 웹서버 구축, UI/UX 디자인, 웹페이지 제작 
+```
+
+   <br/>  
+   <br/>
+
+강수연
+   <br/>
+<img src="https://user-images.githubusercontent.com/57625947/79041836-e4125280-7c2d-11ea-9ec5-28617e53fd63.jpg" width="120">
+```
+ *  역할 : 센서로 데이터 수집후 전송담당, 케이스제작, DB 구축 
+```
+   <br/>  
+   <br/>  
+
+
 
 
 
@@ -112,39 +149,6 @@ CNN알고리즘을 이용하여 피부 이미지를 머신 러닝 처리 예정.
    <br/> 
    
    
-Teams
----  
-  
-  
-오정학(팀장)
-   <br/>
-<img src="https://user-images.githubusercontent.com/57625947/79041832-df4d9e80-7c2d-11ea-9a01-7f89f9e6ab30.png" width="150">
-```
- *  역할 : 머신러닝 모듈 제작
-```
-
-   <br/>  
-   <br/>     
-   
-성진호(Committer)
-   <br/>
-<img src="https://user-images.githubusercontent.com/57625947/79041833-e1aff880-7c2d-11ea-97cf-d7749775f55c.png" width="120">
-```
- *  역할 : 웹서버 구축, UI/UX 디자인, 웹페이지 제작 
-```
-
-   <br/>  
-   <br/>
-
-강수연
-   <br/>
-<img src="https://user-images.githubusercontent.com/57625947/79041836-e4125280-7c2d-11ea-9ec5-28617e53fd63.jpg" width="120">
-```
- *  역할 : 센서로 데이터 수집후 전송담당, 케이스제작, DB 구축 
-```
-   <br/>  
-   <br/>  
-
 기대효과
 ---  
    *  사용자 측면: 고가의 피부 클리닉 방문 없이 피부 관리가 가능하다. 
