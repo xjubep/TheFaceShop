@@ -160,9 +160,6 @@ CNN알고리즘을 이용하여 피부 이미지를 머신 러닝 처리 예정.
 
 
 향후 일정 계획
----      
-<img src="https://user-images.githubusercontent.com/57625947/80255484-f83b6280-86b7-11ea-8777-7ace131cf419.png" width="750">
-
-
+---     
 ![20200510_183440](https://user-images.githubusercontent.com/57625947/81495681-fba43000-92ec-11ea-898e-0f09fb844931.png)
   
