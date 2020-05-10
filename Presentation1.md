@@ -31,7 +31,10 @@
    <br/>  
    <br/>   
  <br/> 
- 
+ <br/>
+<br/>
+
+
 시스템 구성도
 ---
 ![006](https://user-images.githubusercontent.com/57625947/81494913-589ce780-92e7-11ea-9653-7881babda1b2.png)
@@ -46,6 +49,8 @@
 
   <br/> 
   <br/> 
+<br/>
+<br/>
 
 
 
