@@ -66,7 +66,7 @@
    <br/>
 <img src="https://user-images.githubusercontent.com/57625947/79041833-e1aff880-7c2d-11ea-97cf-d7749775f55c.png" width="120">
 ```
- *  역할 : 웹서버 구축, UI/UX 디자인, 웹페이지 제작 
+ *  역할 : UI/UX 디자인, 웹페이지 제작, 데이터 저장하고 전송하는 서버구축 
 ```
 
    <br/>  
