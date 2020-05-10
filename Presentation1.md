@@ -159,6 +159,17 @@ CNN알고리즘을 이용하여 피부 이미지를 머신 러닝 처리 예정.
       <br/> 
    <br/> 
    
+
+
+
+예상 출력화면
+---   
+![20200510_192030](https://user-images.githubusercontent.com/57625947/81496552-69ebf100-92f3-11ea-93ad-aed1e2723911.png)   
+<br/><br/>
+<br/>
+<br/>
+
+   
 프로젝트 진행 중 문제점
 ---  
 ![20200510_184129](https://user-images.githubusercontent.com/57625947/81495836-2478f500-92ee-11ea-8064-d5af45f71a1c.png)
