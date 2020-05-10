@@ -42,9 +42,6 @@
 
  <br/> 
  <br/> 
- <br/> 
- <br/>  
-
 <img src="img/diagram.png">
 
   <br/> 
