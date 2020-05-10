@@ -35,6 +35,14 @@ CNN알고리즘을 이용하여 피부 이미지를 머신 러닝 처리 예정.
    <br/> 
    <br/> 
   
+  
+서비스 구성도
+---
+![005](https://user-images.githubusercontent.com/57625947/81494708-e7a90000-92e5-11ea-8ab2-33f7b52f2359.png)
+  
+<br/>
+  
+  
 예상 시스템 구성도
 ---
 ![005](https://user-images.githubusercontent.com/57625947/80898825-287fa280-8d43-11ea-8207-7a84ca1560e9.JPG)
@@ -157,7 +165,16 @@ Teams
       
       
    <br/>  
-         
+
+기대효과
+---  
+   *  사용자 측면: 고가의 피부 클리닉 방문 없이 피부 관리가 가능하다. 
+   *  기업적 측면: 피부진단을 하면서 얻은 빅데이터를 바탕으로 수익을 창출할 수도 있을 것이다(화장품 회사, 제약사 등등)
+   <br/> 
+   <br/> 
+
+
+
 향후 일정 계획
 ---      
 <img src="https://user-images.githubusercontent.com/57625947/80255484-f83b6280-86b7-11ea-8777-7ace131cf419.png" width="750">
