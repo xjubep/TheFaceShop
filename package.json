@@ -1,0 +1,26 @@
+{
+  "name": "thefaceshop",
+  "version": "1.0.0",
+  "description": "* 팀명 : 라이온 피부 구하기     * 제품/서비스명(브랜드) : 허스트(Hubble Skin Telescope)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjubep/TheFaceShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xjubep/TheFaceShop/issues"
+  },
+  "homepage": "https://github.com/xjubep/TheFaceShop#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28",
+    "mysql": "^2.18.1"
+  }
+}
