@@ -1,1 +1,5 @@
 node_modules
+camera
+esp32cam
+*.pem
+*.json

@@ -1,19 +1,15 @@
 #include <ESP8266WiFi.h>
 #include <Wire.h>
 #include <Adafruit_MLX90614.h>
- 
-// replace with your channel’s thingspeak API key and your SSID and password
-//String apiKey = "XVDYQC4TAE3SPB7H";
+
 const char* ssid = "U+Net3F5A";
 const char* password = "1CB2019693";
-//const char* server = "api.thingspeak.com";
 const char* host = "3.21.37.105";
 const uint16_t port = 8000;
 int id = 5;
 int tempInputPin = D12;
  
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
-//WiFiClient client;
 
 void setupWiFi(void) {
   WiFi.begin(ssid, password);
@@ -82,9 +78,6 @@ void sendData(void) {
 
   Serial.println("Closing connection.");
   client.stop();
-
-  //Serial.println("Waiting 1 Minute before restarting...");
-  //delay(58000);
 }
  
 void setup() {
@@ -101,29 +94,7 @@ void loop() {
 
   if (tempBtn == HIGH) {
     sendData();
-
-
- 
-//    if (client.connect(server,80)) {
-//      String postStr = apiKey;
-//      postStr +="&field4=";
-//      postStr += String(ot);
-//      postStr += "\r\n\r\n";
-// 
-//      client.print("POST /update HTTP/1.1\n");
-//      client.print("Host: api.thingspeak.com\n");
-//      client.print("Connection: close\n");
-//      client.print("X-THINGSPEAKAPIKEY: "+apiKey+"\n");
-//      client.print("Content-Type: application/x-www-form-urlencoded\n");
-//      client.print("Content-Length: ");
-//      client.print(postStr.length());
-//      client.print("\n\n");
-//      client.print(postStr);
-// 
-//      Serial.print("Object: "); Serial.print(ot); Serial.println(" *C");
-//      Serial.println("Sending data to Thingspeak");
-//    }
-//    client.stop();
   }
+  
   delay(10);
 }

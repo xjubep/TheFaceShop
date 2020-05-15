@@ -55,18 +55,17 @@ app.get('/dump', function (req, res) {
 
         console.log('Got ' + rows.length + ' records');
        
-	var jsonList = new Array();
-	for (var i = 0; i < rows.length; i++) {
+	    var jsonList = new Array();
+	    for (var i = 0; i < rows.length; i++) {
 	    	var data = new Object();
-		data.id = rows[i]['id'];
-        data.time = rows[i]['time'];
-        data.temp = rows[i]['temp'];
-		jsonList.push(data);
-	}
-	    //var jsonData = JSON.stringify(jsonList);
+		    data.id = rows[i]['id'];
+            data.time = rows[i]['time'];
+            data.temp = rows[i]['temp'];
+		    jsonList.push(data);
+        }
+        
 	    res.set('Content-Type', 'application/json');
 	    res.json(jsonList);
-	    //res.send(jsonData);
     });
 });
 
