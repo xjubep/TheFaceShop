@@ -50,48 +50,6 @@ CNN알고리즘을 이용하여 피부 이미지를 머신 러닝 처리 예정.
 
   <br/> 
   <br/> 
-
-아두이노 연결
----  
-   <img src="img/wiring.png">
-   <br/>
-   <br/> 
-
-아두이노 핵심 코드
----  
-   ``` c
-   #include <ESP8266WiFi.h>
-   #include <Wire.h>
-   #include <Adafruit_MLX90614.h>
-
-   Adafruit_MLX90614 mlx = Adafruit_MLX90614();
-   WiFiClient client;
-
-   void setup() {
-      Serial.begin(115200);
-      delay(10);
-      mlx.begin();  
-      WiFi.begin(ssid, password);
-
-      ...
-   }
-
-   void loop() {
-      float at = mlx.readAmbientTempC();
-      float ot = mlx.readObjectTempC();
-  
-      if (isnan(at) || isnan(ot)) {
-         Serial.println("Failed to read from sensor!");
-         return;
-      }
-
-      if (client.connect(server,80)) {
-         String postStr = ;
-         ...
-      }
-      client.stop(); 
-   }
-   ```
   
 
 데이터베이스 스키마
