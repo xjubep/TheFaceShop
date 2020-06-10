@@ -1,4 +1,4 @@
-#include <ESP8266WiFi.h>
+#include <WiFi.h>
 #include <Wire.h>
 #include <Adafruit_MLX90614.h>
 
@@ -6,16 +6,15 @@ const char* ssid = "U+Net3F5A";
 const char* password = "1CB2019693";
 const char* host = "3.21.37.105";
 const uint16_t port = 8000;
+
 int id = 5;
-int tempInputPin = D12;
+int leftTempBtn = 12;
+int rightTempBtn = 13;
+double leftTemp, rightTemp;
  
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 
 void setupWiFi(void) {
-  WiFi.begin(ssid, password);
- 
-  Serial.println();
-  Serial.println();
   Serial.print("Connecting to ");
   Serial.println(ssid);
  
@@ -40,16 +39,16 @@ double getTemp(void) {
   return ot;
 }
 
-void sendData(void) {
+void sendData(double leftTemp, double rightTemp) {
   String url;
-  double temp = getTemp();
 
-  if (temp == -1) {
+  if (leftTemp == -1 || rightTemp == -1) {
     return;
   }
   
   url = "/input?id=" + String(id);
-  url += "&skintemp=" + String(temp);
+  url += "&leftTemp=" + String(leftTemp);
+  url += "&rightTemp=" + String(rightTemp);
   Serial.println(url);
 
   WiFiClient client;
@@ -79,21 +78,27 @@ void sendData(void) {
   Serial.println("Closing connection.");
   client.stop();
 }
- 
+
 void setup() {
   Serial.begin(115200);
   delay(10);
   mlx.begin();  
-  pinMode(tempInputPin, INPUT);
+  pinMode(leftTempBtn, INPUT);
+  pinMode(rightTempBtn, INPUT);
  
   setupWiFi();
-}
- 
-void loop() { 
-  int tempBtn = digitalRead(tempInputPin);
 
-  if (tempBtn == HIGH) {
-    sendData();
+}
+
+void loop() {
+  if (digitalRead(leftTempBtn) == HIGH) {
+    leftTemp = getTemp();
+  }
+  else if (digitalRead(rightTempBtn) == HIGH) {
+    rightTemp = getTemp();
+    sendData(leftTemp, rightTemp);
+    leftTemp = 0;
+    rightTemp = 0;
   }
   
   delay(10);

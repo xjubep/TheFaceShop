@@ -15,11 +15,12 @@ var connection = mysql.createConnection({
 });
 connection.connect();
 
-function insertTemp(id, time, temp) {
+function insertTemp(id, time, leftTemp, rightTemp) {
     obj = {};
     obj.id = id;
     obj.time = time;
-    obj.temp = temp;
+    obj.leftTemp = leftTemp;
+    obj.rightTemp = rightTemp;
 
     var query = connection.query('insert into skinTemp set ?', obj, function(err, rows, cols) {
         if (err)
@@ -33,10 +34,10 @@ app.get('/input', function (req, res) {
     var r = req.query;
 
     console.log("GET %j", r);
-    insertTemp(r.id, time, r.skintemp);
+    insertTemp(r.id, time, r.leftTemp, r.rightTemp);
 
     res.set('Content-Type', 'application/json');
-    res.json({"device_id": r.device_id, "status": "ok", "time": time});
+    res.json({"device_id": r.id, "status": "ok", "time": time});
 });
 
 app.get('/dump', function (req, res) {
@@ -60,7 +61,8 @@ app.get('/dump', function (req, res) {
 	    	var data = new Object();
 		    data.id = rows[i]['id'];
             data.time = rows[i]['time'];
-            data.temp = rows[i]['temp'];
+            data.leftTemp = rows[i]['leftTemp'];
+            data.rightTemp = rows[i]['rightTemp'];
 		    jsonList.push(data);
         }
         
