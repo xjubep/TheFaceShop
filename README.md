@@ -34,7 +34,7 @@ CNN알고리즘을 이용하여 피부 이미지를 머신 러닝 처리 예정.
   
 예상 시스템 구성도
 ---
-![005](https://user-images.githubusercontent.com/57625947/80898825-287fa280-8d43-11ea-8207-7a84ca1560e9.JPG)
+![01](https://user-images.githubusercontent.com/57625947/85220608-ee985780-b3e7-11ea-9c17-ebebeed11829.png)
 
 
  <br/> 
@@ -42,7 +42,7 @@ CNN알고리즘을 이용하여 피부 이미지를 머신 러닝 처리 예정.
  <br/> 
  
 
-<img src="img/diagram.png">
+![02](https://user-images.githubusercontent.com/57625947/85220610-f657fc00-b3e7-11ea-9642-cf20b0c1a691.png)
 
   <br/> 
   <br/> 
@@ -52,7 +52,6 @@ CNN알고리즘을 이용하여 피부 이미지를 머신 러닝 처리 예정.
 ---  
    <img src="img/user_table.png">
    <img src="img/skin_temp_table.png">
-   <img src="img/skin_image_table.png">
    <br/>
    <br/> 
    
@@ -103,11 +102,11 @@ Teams
 ---  
     * 프로젝트 요구사항 분석, 관련기술 조사 : 04/12 ~ 04/25
     * 센서 작동 테스트 : 04/25 ~ 04/30
-    * 데이터베이스 구축 : 04/25 ~ 06/07
-    * 웹페이지 제작, UI/UX 디자인 : 04/25 ~ 06/07
-    * 머신러닝 모듈 구축 : 04/25 ~ 06/07
-    * 프로그램 테스트, 문제점 보안 : 06/08 ~ 06/14
-    * Demo Day : 06/15
+    * 데이터베이스 구축 : 04/25 ~ 06/14
+    * 웹페이지 제작, UI/UX 디자인 : 04/25 ~ 06/14
+    * 머신러닝 모듈 구축 : 04/25 ~ 06/14
+    * 프로그램 테스트, 문제점 보안 : 06/15 ~ 06/21
+    * Demo Day : 06/22
     
       
       
@@ -115,5 +114,6 @@ Teams
          
 향후 일정 계획
 ---      
-<img src="https://user-images.githubusercontent.com/57625947/80255484-f83b6280-86b7-11ea-8777-7ace131cf419.png" width="750">
+![03](https://user-images.githubusercontent.com/57625947/85220613-fbb54680-b3e7-11ea-9f41-67c93d4ef488.png)
+
   
